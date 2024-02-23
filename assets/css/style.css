@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
